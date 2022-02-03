@@ -1,14 +1,14 @@
 # toxic_standard_headerfile
 
 ## functions
-syntax:\n
+syntax:  
 ```C++
 inline static std::string& toxic::tstring::ltrim(std::string& s, const char* t = " \t\n\r\f\v")
 ```
-args - s : trim target string\n
-       t : delete target character\n
-purpose : left trim about argument(std::string& s)\n
-return std::string\n
+args - s : trim target string  
+       t : delete target character  
+purpose : left trim about argument(std::string& s)  
+return std::string  
 ___
 syntax:
 ```C++
