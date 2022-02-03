@@ -21,8 +21,8 @@ inline static BOOL toxic::tfile::Filecrypt(const std::string path)
 ```
 ```C++
 inline static void toxic::tfile::SearchingSubFiles(std::string start_path = "", 
-                                                   std::vector<std::string> allow = std::vector<std::string>(), 
-                                                   std::function<BOOL(std::string)> processfn = std::function<BOOL(std::string)>())
+                   std::vector<std::string> allow = std::vector<std::string>(), 
+                   std::function<BOOL(std::string)> processfn = std::function<BOOL(std::string)>())
 ```
 ```C++
 inline static void toxic::tfile::delete_self_()
