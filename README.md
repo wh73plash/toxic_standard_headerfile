@@ -1,32 +1,19 @@
 # toxic_standard_headerfile
 
 ## functions
-syntax:  
 ```C++
 inline static std::string& toxic::tstring::ltrim(std::string& s, const char* t = " \t\n\r\f\v")
 ```
-args - s : trim target string  
-       t : delete target character  
-purpose : left trim about argument(std::string& s)  
-return std::string  
 ___
-syntax:
 ```C++
 inline static std::string& toxic::tstring::rtrim(std::string& s, const char* t = " \t\n\r\f\v")
 ```
-args - s : trim target string
-       t : delete target character
-purpose : right trim about argument(std::string& s)
-return std::string
 ___
-```C++
+```C++  
 inline static std::string& toxic::tstring::trim(std::string& s, const char* t = " \t\n\r\f\v")
 ```
-args - s : trim target string
-       t : delete target character
-purpose : trim about argument(std::string& s)
-return std::string
 ___
+
 ```C++
 inline static std::string& toxic::tstring::strcrypt(std::string& str, std::string cipher = standard_passcode)
 ```
