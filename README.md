@@ -1,5 +1,7 @@
 # toxic_standard_headerfile
 
+working os : windows
+
 ## functions
 ```C++
 inline static std::string& toxic::tstring::ltrim(std::string& s, const char* t = " \t\n\r\f\v")
